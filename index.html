@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdur_razaaq's Contact Form</title>
+    <link rel="stylesheet" href="./glassmorphism.css" />
+  </head>
+  <body>
+    <!--FORM-->
+    <form
+      action="https://formspree.io/f/xoqyvrag"
+      method="POST"
+      id="contact-form"
+    >
+      <h1 class="contact-heading">Contact Me!</h1>
+      <!--Name-->
+      <div class="contact-details">
+        <label for="name" class="contact-label">Full Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Full Name"
+          required
+          class="contact-input"
+        />
+      </div>
+
+      <!--Email Address-->
+      <div class="contact-details">
+        <label for="email" class="contact-label">Email Address: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="name@domain.com"
+          required
+          class="contact-input"
+        />
+      </div>
+
+      <!--Phone Number-->
+      <div class="contact-details">
+        <label for="Phone" class="contact-label">Contact Number: </label>
+        <input
+          type="tel"
+          name="Phone"
+          placeholder="012 345 6789"
+          id="Phone"
+          class="contact-input"
+        />
+      </div>
+
+      <!--Message-->
+      <div class="contact-details">
+        <label>
+          <textarea
+            name="message"
+            placeholder="Enter your Message Here"
+            class="contact-input"
+          ></textarea>
+        </label>
+      </div>
+
+      <button type="submit" class="contact-button">Send</button>
+    </form>
+  </body>
+</html>
